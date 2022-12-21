@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Dawson Kramer">
+    <title>Dawson Kramer</title>
+    <link rel="stylesheet" type="text/css" href="STYLE/style.css">
+    <link rel="stylesheet" href="stylecards.css">
+    <!-- GOOGLE FONT Montserrat -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body onload="hoverlanavbartimed()">
+
+    <!----- CURSEUR ----->
+    <div id="curseur"></div>
+
+    <!----- NAVBAR ----->
+    <div class="navdiv">
+        <div id="contour" class="contour">
+            <div id="navbar" class="navbar" onmouseover="black()" onmouseleave="doublefunc()">
+                <span onclick="location.href='about.html'">About me</span>
+                <span onclick="location.href='work.html'">My Work</span>
+                <span onclick="location.href='contact.html'">Contact</span>
+            </div>
+        </div>
+    </div>
+
+    <!----- HEADER ----->
+    <header>
+        <img onmouseover="black()" onmouseleave="white()" onclick="location.href='index.html'" src="IMG/DK-LOGO.png" class="dklogo">
+        <p onmouseover="black()" onmouseleave="white()" onclick="location.href='index.html'" class="dawson">DAWSON
+            KRAMER
+        </p>
+    </header>
+
+    <!----- CORPS DE LA PAGE ----->
+    <div class="workimg" onmouseover="black()" onmouseleave="white()">
+        <img src="IMG/02.png" alt="">
+    </div>
+
+    <p class="worktitle">JAAP</p>
+    <p class="worktext"> A Japanese street food restaurant I imaginated during a university project.</p>
+
+    <div class="competences">
+        <h3>Skills involved</h3>
+        <div class="flexlineleft2" style="width: 90vw;">
+            <div class="trucs un">Branding</div>
+            <div class="trucs deux">Graphism</div>
+            <div class="trucs trois">Logo Creation</div>
+            <div class="trucs quatre">Photo Editing</div>
+            <div class="trucs cinq">Infographics</div>
+            <div class="trucs six">Web Design</div>
+            <div class="trucs sept">Writing</div>
+        </div>
+    </div>
+
+    <div class="competences">
+        <h3>Softwares utilized</h3>
+        <div class="flexlineleft2" style="width: 90vw;">
+            <div class="trucs un">Illustrator</div>
+            <div class="trucs deux">Photoshop</div>
+            <div class="trucs trois">Figma</div>
+            <div class="trucs quatre">Lightroom</div>
+        </div>
+    </div>
+
+    <div class="grostexte">
+        <p class="titregrostexte">A work of art</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor nemo libero nesciunt, magni laborum rerum quis deserunt eos tenetur? Sed, ducimus voluptatibus quae eaque debitis quaerat quis similique? Suscipit aspernatur modi, sint recusandae quis voluptatibus aut provident cumque sed nostrum deserunt ex dolorum neque, quod est soluta similique doloremque. Possimus perferendis dignissimos iure delectus nihil ipsum, asperiores fugiat! Dolore aliquid voluptate rem enim, consequatur magni corrupti iusto, quod omnis mollitia consequuntur, maiores obcaecati repellendus laboriosam! Architecto hic eum tempora repudiandae incidunt rerum nobis, velit quia quidem aspernatur repellat! Ullam facilis sed fugiat omnis ratione modi voluptates esse nihil deleniti magnam!</p>
+    </div>
+
+    <div class="images">
+        <div class="divimage"><img src="IMG/WORK/CARTE INVITATION JAAP.png" alt=""></div>
+        <div class="divimage"><img src="IMG/WORK/Charte Graphique Dawson Kramer LP CRRW (1)_page-0015.jpg" alt=""></div>
+        <div class="divimage"><img src="IMG/WORK/Charte Graphique Dawson Kramer LP CRRW (1)_page-0017.jpg" alt=""></div>
+        <div class="divimage"><img src="IMG/WORK/Charte Graphique Dawson Kramer LP CRRW (1)_page-0018.jpg" alt=""></div>
+        <div class="divimage"><img src="IMG/WORK/Charte Graphique Dawson Kramer LP CRRW (1)_page-0019.jpg" alt=""></div>
+        <div class="divimage"><img src="IMG/WORK/Charte Graphique Dawson Kramer LP CRRW (1)_page-0020.jpg" alt=""></div>
+        <div class="divimage"><img src="IMG/WORK/Charte Graphique Dawson Kramer LP CRRW (1)_page-0021.jpg" alt=""></div>
+        <div class="divimage"><img src="IMG/WORK/Charte Graphique Dawson Kramer LP CRRW (1)_page-0022.jpg" alt=""></div>
+        <div class="divimage"><img src="IMG/WORK/Charte Graphique Dawson Kramer LP CRRW (1)_page-0023.jpg" alt=""></div>
+        <div class="divimage"><img src="IMG/WORK/DEVANTURE JAAP.png" alt=""></div>
+        <div class="divimage"><img src="IMG/WORK/FLYER JAAP.png" alt=""></div>
+        <div class="divimage"><img src="IMG/WORK/MENU JAAP.png" alt=""></div>
+    </div>
+
+    <!----- FOOTER ----->
+    <footer>
+        <p class="copyright">Copyright © 2022 Dawson Kramer. All rights reserved.</p>
+    </footer>
+
+    <script src="SCRIPT/curseuranim.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+</body></html>
