@@ -49,12 +49,12 @@ function removeTy() {
 
 // fonctions copier
 function copieduno() {
-    document.querySelector('#tel').innerHTML = '📞 Copied';
+    document.querySelector('#cop1').classList.add('copyafter');
     navigator.clipboard.writeText('06 99 72 12 84');
 }
 
 function copieddos() {
-    document.querySelector('#mail').innerHTML = '📧 Copied';
+    document.querySelector('#cop2').classList.add('copyafter');
     navigator.clipboard.writeText('kramerdawson7@gmail.com')
 }
 

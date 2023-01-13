@@ -646,6 +646,37 @@ span {
     letter-spacing: 1px !important;
 }
 
+.copyalert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100px) scale(0);
+    transition: 0.2s cubic-bezier(.37,.01,.72,1.23);
+}
+
+.copyafter {
+    transform: translateY(-20px) scale(1) !important;
+}
+
+.copied {
+    z-index: 2;
+    background: white;
+    width: 120px;
+    padding: 0.2rem;
+    text-align: center;
+    border-radius: 2rem;
+    color: black;
+}
+
+.triangle {
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    background: white;
+    transform: translateY(-35px) rotate(45deg);
+}
+
 /*
     ________ _
    /  _/ __ ( )_____
@@ -687,6 +718,8 @@ span {
 
 #tel,
 #mail {
+    width: 120px;
+    text-align: center;
     font-size: 0.7rem;
     opacity: 0;
     position: relative;
