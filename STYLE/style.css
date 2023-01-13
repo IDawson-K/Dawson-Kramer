@@ -367,6 +367,14 @@ span {
     margin-bottom: 2rem;
 }
 
+.petitalic {
+    color: white;
+    font-style: italic;
+    text-align: center;
+    margin: 1rem 0 6rem 0;
+    font-size: 0.6rem;
+}
+
 .black {
     width: 40px !important;
     height: 40px !important;
@@ -628,6 +636,14 @@ span {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.timeline a {
+    color: black;
+}
+
+.timeline a:hover {
+    letter-spacing: 1px !important;
 }
 
 /*
