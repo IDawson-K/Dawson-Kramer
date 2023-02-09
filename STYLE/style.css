@@ -915,3 +915,10 @@ span {
       transform: translateY(0px);
     }
 }
+
+/* ─── Media Queries ──────────────────────────────────────────────────────── */
+@media screen and (max-width: 900px) {
+    header p {
+        display: none;
+    }
+}
