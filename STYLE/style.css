@@ -23,6 +23,7 @@ html {
 }
 
 body {
+    pointer-events: auto;
     z-index: 1;
     margin: 0;
     padding: 0;
@@ -675,6 +676,28 @@ span {
     height: 20px;
     background: white;
     transform: translateY(-35px) rotate(45deg);
+}
+
+.hidden {
+    display: none;
+}
+
+.pwa {
+    z-index: 9;
+    position: absolute;
+    bottom: -2px;
+    left: -2px;
+    padding: 0.5rem 1.2rem 0.5rem 1rem;
+    border: none;
+    border-top-right-radius: 1rem;
+    background: white;
+    transform-origin: left bottom;
+    transition: 0.4s;
+    cursor: none;
+}
+
+.pwa:hover {
+    transform: scale(1.2);
 }
 
 /*

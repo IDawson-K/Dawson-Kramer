@@ -1,7 +1,7 @@
 {
     "name": "Dawson Kramer's Portfolio",
     "short_name": "Dawson Kramer",
-    "start_url": "https://idawson-k.github.io/Dawson-Kramer/",
+    "start_url": "/",
     "display": "standalone",
     "display_override": [
       "fullscreen",
@@ -54,7 +54,7 @@
         "description": "To contact me."
       }
     ],
-    "scope": "https://idawson-k.github.io/Dawson-Kramer",
+    "scope": "/",
     "categories": [
       "entertainment",
       "social",
