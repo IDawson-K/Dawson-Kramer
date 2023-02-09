@@ -24,13 +24,6 @@
 </head>
 
 <body onload="hoverlanavbartimed()">
-
-<script>
-    if (typeof navigator.serviceWorker !== 'undefined') {
-        navigator.serviceWorker.register('sw.js')
-    }
-</script>
-
     <!----- CURSEUR ----->
     <div id="curseur"></div>
 
@@ -117,6 +110,12 @@
         <p class="copyright">Copyright © 2022 Dawson Kramer. All rights reserved.</p>
     </footer>
 
+    <script>
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/sw.js', { scope: '/' });
+        }
+    </script>
     <script src="jquery-3.6.0.min.js"></script>
     <script src="SCRIPT/curseuranim.js"></script>
-</body></html>
+</body>
+</html>
