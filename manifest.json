@@ -1,0 +1,53 @@
+{
+"name": "Dawson Kramer's Portfolio",
+"short_name": "Dawson Kramer",
+"start_url": "https://idawson-k.github.io/Dawson-Kramer/",
+"display": "standalone",
+"display_override": "window-control-overlay",
+"description": "Dawson Kramer's Portfolio, Discover everything about me.",
+"lang": "en",
+"dir": "auto",
+"theme_color": "#14171A",
+"background_color": "#14171A",
+"orientation": "any",
+"icons": [
+    {
+        "src": "IMG/ICONE512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+    },
+    {
+        "src": "IMG/ICONE192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+    }
+],
+"screenshots": [
+    {
+        "src": "IMG/screenshot.png",
+        "sizes": "2411x1460",
+        "type": "image/png",
+        "description": "A screenshot of the home page"
+    }
+],
+"prefer_related_applications": false,
+"shortcuts": [
+    {
+        "name":"About me",
+        "url":"https://idawson-k.github.io/Dawson-Kramer/about.html",
+        "description":"To know everything about me."
+    },
+    {
+        "name":"My Work",
+        "url":"https://idawson-k.github.io/Dawson-Kramer/work.html",
+        "description":"To get an idea of what I'm capable of."
+    },
+    {
+        "name":"Contact me",
+        "url":"https://idawson-k.github.io/Dawson-Kramer/contact.html",
+        "description":"To contact me."
+    }
+]
+}
