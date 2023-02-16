@@ -612,8 +612,8 @@ span {
 }
 
 .grostexte {
-    width: 88vw;
-    margin-left: 5vw;
+    background: red;
+    padding: 0 5vw 0 5vw;
     margin-top: 6rem;
 }
 
@@ -627,9 +627,8 @@ span {
 }
 
 .images {
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-    justify-content: center;
+    margin: 3rem 5vw 4rem 5vw;
+    justify-content: space-between;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
