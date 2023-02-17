@@ -99,13 +99,6 @@ document.addEventListener("DOMContentLoaded", function () { // On DOM Load initi
     if (textArray.length) setTimeout(type, newTextDelay + 250);
 });
 
-// La page qui scroll un peu au refresh peut etre un bug live server mais on sait jamais :
-history.scrollRestoration = "manual";
-
-$(window).on('beforeunload', function () {
-    $(window).scrollTop(0);
-});
-
 function hoverlanavbar() {
     document.querySelector('#navbar').classList.add('contourhovernavbar');
     document.querySelector('#contour').classList.add('contourhover');
