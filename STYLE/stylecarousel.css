@@ -20,6 +20,7 @@
     height: 100%;
     border-radius: 10px;
     object-fit: cover;
+    cursor: pointer;
   }
   .carousel__prev, .carousel__next {
     position: absolute;

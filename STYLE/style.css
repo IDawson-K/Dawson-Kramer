@@ -8,7 +8,6 @@
 @font-face {
     font-family: '01';
     src: url(../FONT/MuseoModerno-Italic-VariableFont_wght.ttf);
-    font-weight: 900;
 }
 
 @font-face {
@@ -250,7 +249,14 @@ span {
     width: 45px;
     margin-left: 5px;
     z-index: 9;
+    cursor: pointer;
+    transition: 0.4s;
+    transform-origin: left top;
     animation: dk 1s ease-in-out 0.1s 1 normal forwards;
+}
+
+.dklogo:hover {
+    transform: scale(1.2);
 }
 
 .dawson {
@@ -263,7 +269,7 @@ span {
     font-weight: 200;
     letter-spacing: 0.2rem;
     transform-origin: left;
-    animation: dawson 1.3s ease-in-out 0.2s 1 normal forwards;
+    animation: dawson 1.3s ease-in-out 0.4s 1 normal forwards;
 }
 
 .navbar {
@@ -397,9 +403,7 @@ span {
 }
 
 .black {
-    width: 3rem !important;
-    height: 3rem !important;
-    filter: invert(100%);
+    filter: sepia(1) contrast(2) brightness(2);
     border: none !important;
     transition: 1s;
 }
@@ -851,11 +855,11 @@ span {
 
 @keyframes dk {
     from {
-        transform: scale(0.8);
+        width: 10px;
     }
 
     to {
-        transform: scale(0.9);
+        width: 45px;
         opacity: 1;
     }
 }
