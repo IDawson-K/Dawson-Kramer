@@ -3,20 +3,10 @@
 	<url>
 		<loc>https://www.https://dawson-kramer.netlify.app/</loc>
 		<priority>0.60</priority>
-		<lastmod>2023-02-17</lastmod>
+		<lastmod>2023-03-02</lastmod>
 	</url>
 	<url>
-		<loc>https://www.https://dawson-kramer.netlify.app//workShow.html</loc>
-		<priority>0.20</priority>
-		<lastmod>2023-02-17</lastmod>
-	</url>
-	<url>
-		<loc>https://www.https://dawson-kramer.netlify.app//work.html</loc>
-		<priority>0.20</priority>
-		<lastmod>2023-02-17</lastmod>
-	</url>
-	<url>
-		<loc>https://www.https://dawson-kramer.netlify.app//offline.html</loc>
+		<loc>https://www.https://dawson-kramer.netlify.app//about.html</loc>
 		<priority>0.20</priority>
 		<lastmod>2023-02-17</lastmod>
 	</url>
@@ -26,7 +16,17 @@
 		<lastmod>2023-02-17</lastmod>
 	</url>
 	<url>
-		<loc>https://www.https://dawson-kramer.netlify.app//about.html</loc>
+		<loc>https://www.https://dawson-kramer.netlify.app//offline.html</loc>
+		<priority>0.20</priority>
+		<lastmod>2023-02-17</lastmod>
+	</url>
+	<url>
+		<loc>https://www.https://dawson-kramer.netlify.app//work.html</loc>
+		<priority>0.20</priority>
+		<lastmod>2023-02-17</lastmod>
+	</url>
+	<url>
+		<loc>https://www.https://dawson-kramer.netlify.app//workShow.html</loc>
 		<priority>0.20</priority>
 		<lastmod>2023-02-17</lastmod>
 	</url>
