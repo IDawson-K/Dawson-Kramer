@@ -1,151 +1,255 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Dawson Kramer">
-    <meta name="description" content="Welcome to my professional portfolio, showcasing my skills and passion for Web Design. As a student with a strong interest in Web Development, I have completed various projects and coursework, demonstrating my creativity and dedication to excellence. Browse through my recent work and get in touch to learn how I can contribute to your future projects.">
-    <meta name="theme-color" content="#14171A">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Dawson Kramer" />
+    <meta
+      name="description"
+      content="Welcome to my professional portfolio, showcasing my skills and passion for Web Design. As a student with a strong interest in Web Development, I have completed various projects and coursework, demonstrating my creativity and dedication to excellence. Browse through my recent work and get in touch to learn how I can contribute to your future projects."
+    />
+    <meta name="theme-color" content="#14171A" />
     <title>Dawson Kramer</title>
     <!-- FEUILLES DE STYLE -->
-    <link rel="stylesheet" type="text/css" href="STYLE/style.min.css">
-    <link rel="stylesheet" href="STYLE/stylecarousel.css">
+    <link rel="stylesheet" type="text/css" href="STYLE/style.min.css" />
+    <link rel="stylesheet" href="STYLE/stylecarousel.css" />
+    <link rel="stylesheet" href="STYLE/timeline.css" />
     <!-- ICONES FONTAWESOME -->
-    <link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.9.0/css/all.css'>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.9.0/css/all.css"
+    />
     <!-- LIEN CANONIQUE -->
-    <link rel="canonical" href="https://dawson-kramer.netlify.app/">
+    <link rel="canonical" href="https://dawson-kramer.netlify.app/" />
     <!-- PWA -->
-    <link rel="manifest" href="manifest.json">
-    <script>navigator.serviceWorker.register("sw.js")</script>
+    <link rel="manifest" href="manifest.json" />
+    <script>
+      navigator.serviceWorker.register("sw.js");
+    </script>
     <!-- ICONE APPLE TOUCH IOS -->
-<script>navigator.serviceWorker.register("sw.js")</script> 
-<script>navigator.serviceWorker.register("sw.js")</script> 
-    <link rel="apple-touch-icon" href="IMG/ICONE512.png">
-</head>
+    <script>
+      navigator.serviceWorker.register("sw.js");
+    </script>
+    <script>
+      navigator.serviceWorker.register("sw.js");
+    </script>
+    <link rel="apple-touch-icon" href="IMG/ICONE512.png" />
+  </head>
 
-<body onload="hoverlanavbartimed()">
-
+  <body onload="hoverlanavbartimed()">
     <!----- CURSEUR ----->
     <div id="curseur"></div>
 
     <!----- NAVBAR ----->
     <div class="navdiv">
-        <div id="contour" class="contour">
-            <div id="navbar" class="navbar" onmouseover="black()" onmouseleave="doublefunc()">
-                <span onclick="location.href='about.html'">About me</span>
-                <span onclick="location.href='work.html'">My Work</span>
-                <span onclick="location.href='contact.html'">Contact</span>
-            </div>
+      <div id="contour" class="contour">
+        <div
+          id="navbar"
+          class="navbar"
+          onmouseover="black()"
+          onmouseleave="doublefunc()"
+        >
+          <span onclick="location.href='about.html'">About me</span>
+          <span onclick="location.href='work.html'">My Work</span>
+          <span onclick="location.href='contact.html'">Contact</span>
         </div>
+      </div>
     </div>
 
     <!----- HEADER ----->
     <header>
-        <img onmouseover="black()" onmouseleave="white()" onclick="location.href='index.html'" src="IMG/DK-LOGO.webp" class="dklogo">
-        <p onmouseover="black()" onmouseleave="white()" onclick="location.href='index.html'" class="dawson">DAWSON KRAMER</p>
+      <img
+        onmouseover="black()"
+        onmouseleave="white()"
+        onclick="location.href='index.html'"
+        src="IMG/DK-LOGO.svg"
+        class="dklogo"
+      />
+      <p
+        onmouseover="black()"
+        onmouseleave="white()"
+        onclick="location.href='index.html'"
+        class="dawson"
+      >
+        DAWSON KRAMER
+      </p>
     </header>
 
     <!----- CORPS DE LA PAGE ----->
-    <br>
+    <br />
     <h1 class="landingtext">Here is everything about me</h1>
     <div style="margin-top: 3rem" class="flexlineleft">
-        <img class="pp" width="38px" height="38px" src="IMG/dawson.webp" alt="profile picture">
+      <img
+        class="pp"
+        width="38px"
+        height="38px"
+        src="IMG/dawson.webp"
+        alt="profile picture"
+      />
 
-        <div onmouseover="black()" onmouseleave="white()" class="msg">
-            Hi, I am Dawson Kramer, I study in the university of Rheims lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Porro quasi sed excepturi voluptatum adipisci, atque facere fugit iste labore beatae. <br>
-        </div>
+      <div onmouseover="black()" onmouseleave="white()" class="msg">
+        Je m'appelle Dawson Kramer. j'ai 21 ans, je suis étudiant à l'école
+        d'ingénieur en sciences industrielles et numériques. J'y étudie les
+        métiers du web. en LP CRRW. Durant mes 3 années d'études dans
+        l'enseignement supérieur, j'ai pu accumuler plusieurs expériences
+        professionnelles. qui m'ont toutes enrichies personnellement. En dehors
+        du travail, je m'intéresse à l'art, le cinéma, la musique, le sport et
+        la cuisine. Je suis aussi un grand fan de 'high-tech'. Plus tard.
+        j'aimerais voyager, vivre de nouvelles aventures, ne plus savoir ce
+        qu'est la routine.
+        <br />
+      </div>
     </div>
 
     <div class="competences">
-        <h3>Languages that I know</h3>
-        <div class="flexlineleft2" style="width: 90vw;">
-            <div class="trucs un">English</div>
-            <div class="trucs deux">French</div>
-            <div class="trucs trois">Spanish</div>
-            <div class="trucs quatre">HTML</div>
-            <div class="trucs cinq">CSS</div>
-            <div class="trucs six">JavaScript</div>
-            <div class="trucs sept">PHP</div>
-            <div class="trucs huit">UE5 Blueprint</div>
-        </div>
+      <h3>Languages I know</h3>
+      <div class="flexlineleft2" style="width: 90vw">
+        <div class="trucs un">English</div>
+        <div class="trucs deux">French</div>
+        <div class="trucs trois">Spanish</div>
+        <div class="trucs quatre">HTML</div>
+        <div class="trucs cinq">CSS</div>
+        <div class="trucs six">JavaScript</div>
+        <div class="trucs sept">PHP</div>
+        <div class="trucs huit">UE5 Blueprint</div>
+      </div>
     </div>
 
     <div class="competences">
-        <h3>Things that I do</h3>
-        <div class="flexlineleft2" style="width: 90vw;">
-            <div class="trucs un">UI/UX Design</div>
-            <div class="trucs deux">Graphic Design</div>
-            <div class="trucs trois">Communication</div>
-            <div class="trucs quatre">3D Creation</div>
-            <div class="trucs cinq">Web Dev</div>
-            <div class="trucs six">Writing</div>
-            <div class="trucs sept">Photo/Video Editing</div>
-        </div>
+      <h3>Things I do</h3>
+      <div class="flexlineleft2" style="width: 90vw">
+        <div class="trucs un">UI/UX Design</div>
+        <div class="trucs deux">Graphic Design</div>
+        <div class="trucs trois">Communication</div>
+        <div class="trucs quatre">3D</div>
+        <div class="trucs cinq">Web Dev</div>
+        <div class="trucs six">Writing</div>
+        <div class="trucs huit">Branding</div>
+        <div class="trucs neuf">Advertising</div>
+        <div class="trucs dix">Social Media</div>
+      </div>
+    </div>
+
+    <div class="competences">
+      <h3>Softwares I work with</h3>
+      <div class="flexlineleft2" style="width: 90vw">
+        <div class="trucs un">Illustrator</div>
+        <div class="trucs deux">Visual Studio Code</div>
+        <div class="trucs trois">Blender</div>
+        <div class="trucs quatre">Affinity Designer</div>
+        <div class="trucs cinq">DaVinci Resolve</div>
+        <div class="trucs six">Github</div>
+        <div class="trucs huit">Figma</div>
+        <div class="trucs neuf">Photoshop</div>
+        <div class="trucs dix">Office Suite</div>
+      </div>
     </div>
 
     <div class="reseaux flexline">
-        <img class="twitter" onclick="window.open('https://twitter.com/DawsonGraph', '_blank')" onmouseover="black()" onmouseleave="white()" src="IMG/twitter.webp" alt="My Twitter">
-        <img class="behance" onclick="window.open('https://www.behance.net/dawsonkramer', '_blank')" onmouseover="black()" onmouseleave="white()" src="IMG/behance.webp" alt="My Behance">
-        <img class="linkedin" onclick="window.open('https://www.linkedin.com/in/dawson-kramer-437648200', '_blank')" onmouseover="black()" onmouseleave="white()" src="IMG/linkedin.webp" alt="My Linkedin">
+      <img
+        class="twitter"
+        onclick="window.open('https://twitter.com/DawsonGraph', '_blank')"
+        onmouseover="black()"
+        onmouseleave="white()"
+        src="IMG/twitter.webp"
+        alt="My Twitter"
+      />
+      <img
+        class="behance"
+        onclick="window.open('https://www.behance.net/dawsonkramer', '_blank')"
+        onmouseover="black()"
+        onmouseleave="white()"
+        src="IMG/behance.webp"
+        alt="My Behance"
+      />
+      <img
+        class="linkedin"
+        onclick="window.open('https://www.linkedin.com/in/dawson-kramer-437648200', '_blank')"
+        onmouseover="black()"
+        onmouseleave="white()"
+        src="IMG/linkedin.webp"
+        alt="My Linkedin"
+      />
     </div>
 
     <div class="flexline">
-        <a onmouseover="black()" onmouseleave="white()" id="download" href="IMG/CV_DAWSON_KRAMER_DARK.pdf" download="">Download my whole CV</a>
+      <a
+        onmouseover="black()"
+        onmouseleave="white()"
+        id="download"
+        href="IMG/CV_DAWSON_KRAMER_DARK.pdf"
+        download=""
+        >Download my whole Curriculum Vitae</a
+      >
     </div>
 
     <section class="timeline">
+      <h2>For the curious ones, there is what I went through</h2>
 
-        <h2>For the curious ones, there is what I went through</h2>
-
-        <ul>
-            <li>
-                <div onmouseover="black()" onmouseleave="white()">
-                    <time>2018</time>
-                    I get my "brevet d'initiation à l'aéronautique" at the military high school of Aix-en-Provence. Having grown up with a father who loved aeronautics, I was naturally interested in this field. I also passed the theoretical test for the telepilot diploma. Also interested in the audiovisual sector, drones have broadened my capabilities.
-                </div>
-            </li>
-            <li>
-                <div onmouseover="black()" onmouseleave="white()">
-                    <time>2020</time>
-                    Still at the military high school of Aix-en-Provence, I obtained my scientific baccalaureate with option "ISN" which stands for computer and digital science in french. It was during the COVID-19 pandemic, it was very hard mentally, for all the students, especially at the military high school, which was a boarding school.
-                </div>
-            </li>
-            <li>
-                <div onmouseover="black()" onmouseleave="white()">
-                    <time>2022</time>
-                    I get my "DUT MMI" which means "university diploma of technology in multimedia and internet" in french. These two years of study are among the most enriching for me.
-                </div>
-            </li>
-            <li>
-                <div onmouseover="black()" onmouseleave="white()">
-                    <time>2022</time>
-                    This year, I built a website for a real company for the first time, not again for a school project. I was excited about this. It was my first real experience in the working world, not counting the meal deliveries in the evening after school.
-                    <br> Website : <a href="https://www.hatom.fr">hatom.fr</a>
-                </div>
-            </li>
-            <li>
-                <div onmouseover="black()" onmouseleave="white()">
-                    <time>2023</time>
-                    Now, I am getting my third grade diploma in "CRRW" which stands for "Création, rédaction, réalisation web" in french. And all that means that, basically, I make websites, brand identities, advertisement...
-                </div>
-            </li>
-        </ul>
+      <ul>
+        <li>
+          <div onmouseover="black()" onmouseleave="white()">
+            <time>2018</time>
+            I get my "brevet d'initiation à l'aéronautique" at the military high
+            school of Aix-en-Provence. Having grown up with a father who loved
+            aeronautics, I was naturally interested in this field. I also passed
+            the theoretical test for the telepilot diploma. Also interested in
+            the audiovisual sector, drones have broadened my capabilities.
+          </div>
+        </li>
+        <li>
+          <div onmouseover="black()" onmouseleave="white()">
+            <time>2020</time>
+            Still at the military high school of Aix-en-Provence, I obtained my
+            scientific baccalaureate with option "ISN" which stands for computer
+            and digital science in french. It was during the COVID-19 pandemic,
+            it was very hard mentally, for all the students, especially at the
+            military high school, which was a boarding school.
+          </div>
+        </li>
+        <li>
+          <div onmouseover="black()" onmouseleave="white()">
+            <time>2022</time>
+            I get my "DUT MMI" which means "university diploma of technology in
+            multimedia and internet" in french. These two years of study are
+            among the most enriching for me.
+          </div>
+        </li>
+        <li>
+          <div onmouseover="black()" onmouseleave="white()">
+            <time>2022</time>
+            This year, I built a website for a real company for the first time,
+            not again for a school project. I was excited about this. It was my
+            first real experience in the working world, not counting the meal
+            deliveries in the evening after school.
+            <br />
+            Website : <a href="https://www.hatom.fr">hatom.fr</a>
+          </div>
+        </li>
+        <li>
+          <div onmouseover="black()" onmouseleave="white()">
+            <time>2023</time>
+            Now, I am getting my third grade diploma in "CRRW" which stands for
+            "Création, rédaction, réalisation web" in french. And all that means
+            that, basically, I make websites, brand identities, advertisement...
+          </div>
+        </li>
+      </ul>
     </section>
 
     <div class="flexbox">
-        <h2>That's it !</h2>
-        <div class="petitalic">After all, I'm only 20 years old.</div>
+      <h2>That's it !</h2>
+      <div class="petitalic">After all, I'm only 20 years old.</div>
     </div>
 
     <!----- FOOTER ----->
     <footer>
-        <p class="copyright">Copyright © 2022 Dawson Kramer. All rights reserved.</p>
+      <p class="copyright">
+        Copyright © 2022 Dawson Kramer. All rights reserved.
+      </p>
     </footer>
 
-    <script src="SCRIPT/curseuranim.min.js"></script>
     <script src="SCRIPT/timeline.js"></script>
-</body>
-
+    <script src="SCRIPT/curseuranim.min.js"></script>
+  </body>
 </html>

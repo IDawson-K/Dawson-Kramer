@@ -1,106 +1,171 @@
 <!DOCTYPE html>
-<html style="overflow: hidden;">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Dawson Kramer">
-    <meta name="description" content="Welcome to my professional portfolio, showcasing my skills and passion for Web Design. As a student with a strong interest in Web Development, I have completed various projects and coursework, demonstrating my creativity and dedication to excellence. Browse through my recent work and get in touch to learn how I can contribute to your future projects.">
-    <meta name="theme-color" content="#14171A">
+<html style="overflow: hidden">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Dawson Kramer" />
+    <meta
+      name="description"
+      content="Welcome to my professional portfolio, showcasing my skills and passion for Web Design. As a student with a strong interest in Web Development, I have completed various projects and coursework, demonstrating my creativity and dedication to excellence. Browse through my recent work and get in touch to learn how I can contribute to your future projects."
+    />
+    <meta name="theme-color" content="#14171A" />
     <title>Dawson Kramer</title>
     <!-- FEUILLES DE STYLE -->
-    <link rel="stylesheet" type="text/css" href="STYLE/style.min.css">
-    <link rel="stylesheet" href="STYLE/stylecarousel.css">
+    <link rel="stylesheet" type="text/css" href="STYLE/style.min.css" />
+    <link rel="stylesheet" href="STYLE/stylecarousel.css" />
     <!-- ICONES FONTAWESOME -->
-    <link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.9.0/css/all.css'>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.9.0/css/all.css"
+    />
     <!-- LIEN CANONIQUE -->
-    <link rel="canonical" href="https://dawson-kramer.netlify.app/">
+    <link rel="canonical" href="https://dawson-kramer.netlify.app/" />
     <!-- PWA -->
-    <link rel="manifest" href="manifest.json">
-    <script>navigator.serviceWorker.register("sw.js")</script>
+    <link rel="manifest" href="manifest.json" />
+    <script>
+      navigator.serviceWorker.register("sw.js");
+    </script>
     <!-- ICONE APPLE TOUCH IOS -->
-<script>navigator.serviceWorker.register("sw.js")</script> 
-<script>navigator.serviceWorker.register("sw.js")</script> 
-    <link rel="apple-touch-icon" href="IMG/ICONE512.png">
-</head>
+    <script>
+      navigator.serviceWorker.register("sw.js");
+    </script>
+    <script>
+      navigator.serviceWorker.register("sw.js");
+    </script>
+    <link rel="apple-touch-icon" href="IMG/ICONE512.png" />
+  </head>
 
-<body onload="hoverlanavbartimed()">
-
+  <body onload="hoverlanavbartimed()">
     <!----- CURSEUR ----->
     <div id="curseur"></div>
 
     <!----- NAVBAR ----->
     <div class="navdiv">
-        <div id="contour" class="contour">
-            <div id="navbar" class="navbar" onmouseover="black()" onmouseleave="doublefunc()">
-                <span onclick="location.href='about.html'">About me</span>
-                <span onclick="location.href='work.html'">My Work</span>
-                <span onclick="location.href='contact.html'">Contact</span>
-            </div>
+      <div id="contour" class="contour">
+        <div
+          id="navbar"
+          class="navbar"
+          onmouseover="black()"
+          onmouseleave="doublefunc()"
+        >
+          <span onclick="location.href='about.html'">About me</span>
+          <span onclick="location.href='work.html'">My Work</span>
+          <span onclick="location.href='contact.html'">Contact</span>
         </div>
+      </div>
     </div>
 
     <!----- HEADER ----->
     <header>
-        <img onmouseover="black()" onmouseleave="white()" onclick="location.href='index.html'" src="IMG/DK-LOGO.webp" class="dklogo">
-        <p onmouseover="black()" onmouseleave="white()" onclick="location.href='index.html'" class="dawson">DAWSON KRAMER
-        </p>
+      <img
+        onmouseover="black()"
+        onmouseleave="white()"
+        onclick="location.href='index.html'"
+        src="IMG/DK-LOGO.svg"
+        class="dklogo"
+      />
+      <p
+        onmouseover="black()"
+        onmouseleave="white()"
+        onclick="location.href='index.html'"
+        class="dawson"
+      >
+        DAWSON KRAMER
+      </p>
     </header>
 
     <!----- CORPS DE LA PAGE ----->
     <h1 class="contactitre">Tell me everything</h1>
 
     <div id="Ad" class="avertissement disparait">
-        <img class="icon" src="IMG/exclamation.svg" alt="error">
-        <br>
-        Wait, you forgot to give me your email adress 😭
-        <br>
-        <input style="margin-top: 3rem;" type="button" value="OK" onclick="removealert()" onmouseover="black()" onmouseleave="white()">
+      <img class="icon" src="IMG/exclamation.svg" alt="error" />
+      <br />
+      Wait, you forgot to give me your email adress 😭
+      <br />
+      <input
+        style="margin-top: 3rem"
+        type="button"
+        value="OK"
+        onclick="removealert()"
+        onmouseover="black()"
+        onmouseleave="white()"
+      />
     </div>
 
     <div id="Ty" class="avertissement disparait">
-        <img class="icon" src="IMG/badge-check.svg" alt="error">
-        <br>
-        Thank you, I hope you didn't make any spelling mistakes 😉
-        <br>
-        <input style="margin-top: 3rem;" type="button" value="OK" onclick="removeTy()" onmouseover="black()" onmouseleave="white()">
+      <img class="icon" src="IMG/badge-check.svg" alt="error" />
+      <br />
+      Thank you, I hope you didn't make any spelling mistakes 😉
+      <br />
+      <input
+        style="margin-top: 3rem"
+        type="button"
+        value="OK"
+        onclick="removeTy()"
+        onmouseover="black()"
+        onmouseleave="white()"
+      />
     </div>
 
     <form action="">
-        <br>
-        <span>Just write here, I will respond as fast as I can. 🚀</span>
-        <br>
-        <textarea id="area" onmouseover="hoverinput()" onmouseleave="hoverinputleave()"></textarea>
-        <br>
-        <input type="button" value="SEND" onclick="contact()" onmouseover="black()" onmouseleave="white()">
+      <br />
+      <span>Just write here, I will respond as fast as I can. 🚀</span>
+      <br />
+      <textarea
+        id="area"
+        onmouseover="hoverinput()"
+        onmouseleave="hoverinputleave()"
+      ></textarea>
+      <br />
+      <input
+        type="button"
+        value="SEND"
+        onclick="contact()"
+        onmouseover="black()"
+        onmouseleave="white()"
+      />
     </form>
 
     <div class="flexline contactinfo">
-        <div id="tel" onclick="copieduno()" onmouseover="black()" onmouseleave="white()" class="white">📞 My phone number</div>
-        <div id="mail" onclick="copieddos()" onmouseover="black()" onmouseleave="white()" class="white">📧 My e-mail adress</div>
+      <div
+        id="tel"
+        onclick="copieduno()"
+        onmouseover="black()"
+        onmouseleave="white()"
+        class="white"
+      >
+        📞 My phone number
+      </div>
+      <div
+        id="mail"
+        onclick="copieddos()"
+        onmouseover="black()"
+        onmouseleave="white()"
+        class="white"
+      >
+        📧 My e-mail adress
+      </div>
     </div>
 
     <div class="flexline contactinfo">
-        <div id="cop1" class="copyalert">
-            <div class="copied">
-                ✅ Copied 
-            </div>
-            <div class="triangle"></div>
-        </div>
-    
-        <div id="cop2" class="copyalert">
-            <div class="copied">
-                ✅ Copied 
-            </div>
-            <div class="triangle"></div>
-        </div>
+      <div id="cop1" class="copyalert">
+        <div class="copied">✅ Copied</div>
+        <div class="triangle"></div>
+      </div>
+
+      <div id="cop2" class="copyalert">
+        <div class="copied">✅ Copied</div>
+        <div class="triangle"></div>
+      </div>
     </div>
 
-
     <!----- FOOTER ----->
-    <footer style="position: fixed;">
-        <p class="copyright">Copyright © 2022 Dawson Kramer. All rights reserved.</p>
+    <footer style="position: fixed">
+      <p class="copyright">
+        Copyright © 2022 Dawson Kramer. All rights reserved.
+      </p>
     </footer>
 
     <script src="SCRIPT/curseuranim.min.js"></script>
-</body></html>
+  </body>
+</html>

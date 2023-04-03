@@ -538,6 +538,7 @@ span {
     font-size: 0.7rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .un {
@@ -547,56 +548,66 @@ span {
 
 .deux {
     opacity: 0;
-    animation: comp 0.3s ease-out 2s 1 normal forwards;
+    animation: comp 0.3s ease-out 1.9s 1 normal forwards;
 }
 
 .trois {
     opacity: 0;
-    animation: comp 0.3s ease-out 2.2s 1 normal forwards;
+    animation: comp 0.3s ease-out 2s 1 normal forwards;
 }
 
 .quatre {
     opacity: 0;
-    animation: comp 0.3s ease-out 2.4s 1 normal forwards;
+    animation: comp 0.3s ease-out 2.1s 1 normal forwards;
 }
 
 .cinq {
     opacity: 0;
-    animation: comp 0.3s ease-out 2.6s 1 normal forwards;
+    animation: comp 0.3s ease-out 2.2s 1 normal forwards;
 }
 
 .six {
     opacity: 0;
-    animation: comp 0.3s ease-out 2.8s 1 normal forwards;
+    animation: comp 0.3s ease-out 2.3s 1 normal forwards;
 }
 
 .sept {
     opacity: 0;
-    animation: comp 0.3s ease-out 3s 1 normal forwards;
+    animation: comp 0.3s ease-out 2.4s 1 normal forwards;
 }
 
 .huit {
     opacity: 0;
-    animation: comp 0.3s ease-out 3.2s 1 normal forwards;
+    animation: comp 0.3s ease-out 2.5s 1 normal forwards;
+}
+
+.neuf {
+    opacity: 0;
+    animation: comp 0.3s ease-out 2.6s 1 normal forwards;
+}
+
+.dix {
+    opacity: 0;
+    animation: comp 0.3s ease-out 2.7s 1 normal forwards;
 }
 
 .twitter {
     position: relative;
     opacity: 0;
-    animation: reseaux 0.3s ease-out 3.6s 1 normal forwards;
+    animation: reseaux 0.3s ease-out 2.9s 1 normal forwards;
 }
 
 .behance {
     position: relative;
     opacity: 0;
-    animation: reseaux 0.3s ease-out 3.8s 1 normal forwards;
+    animation: reseaux 0.3s ease-out 3.1s 1 normal forwards;
 }
 
 
 .linkedin {
     position: relative;
     opacity: 0;
-    animation: reseaux 0.3s ease-out 4s 1 normal forwards;
+    animation: reseaux 0.3s ease-out 3.3s 1 normal forwards;
 }
 
 .workdiv{
